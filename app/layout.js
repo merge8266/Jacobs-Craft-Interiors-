@@ -1,12 +1,12 @@
 export const metadata = {
   title: "Jacob's Craft Interiors",
-  description: "Cabinets, Tiling, Interior Finishing",
-}
+  description: "Interior design, cabinets, tiling and finishing",
+};
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html>
       <body>{children}</body>
     </html>
-  )
+  );
 }
