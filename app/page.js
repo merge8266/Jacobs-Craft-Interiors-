@@ -1,4 +1,3 @@
-JavaScript
 export default function Home() {
   return (
     <div style={{ fontFamily: "Arial", padding: "20px" }}>
