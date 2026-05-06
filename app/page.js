@@ -79,28 +79,28 @@ export default function Home() {
 
       {/* PROJECTS */}
       <section id="projects" className="section">
-        <h2>Our Work</h2>
+  <h2>Our Work</h2>
 
-        <div className="grid">
+  <div className="grid">
 
-          <div className="project">
-            <div className="project-overlay">Modern Kitchen</div>
-          </div>
+    <div className="project" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c')" }}>
+      <div className="project-overlay">Modern Kitchen</div>
+    </div>
 
-          <div className="project">
-            <div className="project-overlay">Luxury Wardrobe</div>
-          </div>
+    <div className="project" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1616594039964-ae9021a400a0')" }}>
+      <div className="project-overlay">Luxury Wardrobe</div>
+    </div>
 
-          <div className="project">
-            <div className="project-overlay">TV Wall Unit</div>
-          </div>
+    <div className="project" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6')" }}>
+      <div className="project-overlay">TV Wall Unit</div>
+    </div>
 
-          <div className="project">
-            <div className="project-overlay">Built-In Cupboard</div>
-          </div>
+    <div className="project" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1600210492493-0946911123ea')" }}>
+      <div className="project-overlay">Built-In Cupboard</div>
+    </div>
 
-        </div>
-      </section>
+  </div>
+</section>
 
       {/* CONTACT */}
       <section id="contact" className="section dark">
