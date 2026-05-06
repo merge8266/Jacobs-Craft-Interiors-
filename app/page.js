@@ -39,43 +39,38 @@ export default function Home() {
       </section>
 
       {/* SERVICES */}
-      <section id="services" className="section dark">
-        <h2>Our Services</h2>
+      
+<section id="services" className="section dark">
+  <h2>Our Services</h2>
 
-        <div className="grid">
+  <div className="grid">
 
-          <div className="card">
-            <h3>Kitchen Cabinets</h3>
-            <p>Modern custom-built kitchen units.</p>
-          </div>
+    <div className="service-card" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c')" }}>
+      <div className="overlay">
+        <h3>Kitchen Cabinets</h3>
+      </div>
+    </div>
 
-          <div className="card">
-            <h3>Built-In Cupboards</h3>
-            <p>Durable and stylish built-ins for any space.</p>
-          </div>
+    <div className="service-card" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1616594039964-ae9021a400a0')" }}>
+      <div className="overlay">
+        <h3>Built-In Cupboards</h3>
+      </div>
+    </div>
 
-          <div className="card">
-            <h3>Wardrobes</h3>
-            <p>Fitted wardrobes designed for your lifestyle.</p>
-          </div>
+    <div className="service-card" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1615874959474-d609969a20ed')" }}>
+      <div className="overlay">
+        <h3>Wardrobes</h3>
+      </div>
+    </div>
 
-          <div className="card">
-            <h3>TV Units</h3>
-            <p>Modern TV stands and wall panel designs.</p>
-          </div>
+    <div className="service-card" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6')" }}>
+      <div className="overlay">
+        <h3>TV Units</h3>
+      </div>
+    </div>
 
-          <div className="card">
-            <h3>Custom Woodwork</h3>
-            <p>Unique designs crafted to your vision.</p>
-          </div>
-
-          <div className="card">
-            <h3>Interior Finishing</h3>
-            <p>Clean finishing touches that elevate your space.</p>
-          </div>
-
-        </div>
-      </section>
+  </div>
+</section>
 
       {/* PROJECTS */}
       <section id="projects" className="section">
@@ -106,9 +101,9 @@ export default function Home() {
       <section id="contact" className="section dark">
         <h2>Contact Us</h2>
 
-        <p>📞 +27 78 123 4567</p>
+        <p>📞 +27 71 0142506</p>
         <p>📧 info@jacobscraftinteriors.co.za</p>
-        <p>📍 KwaMaphumulo / Durban</p>
+        <p>📍 Durban - KZN</p>
 
         <div className="socials">
           <a href="#">Facebook</a>
