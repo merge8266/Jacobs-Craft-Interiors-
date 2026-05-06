@@ -6,7 +6,7 @@ export default function Home() {
 
       {/* NAVBAR */}
       <header className="header">
-        <div className="logo">Jacob's Craft</div>
+        <div className="logo">Jacob's Craft Interiors</div>
         <nav>
           <a href="#home">Home</a>
           <a href="#services">Services</a>
@@ -20,9 +20,9 @@ export default function Home() {
         <div className="overlay"></div>
 
         <div className="hero-content">
-          <h1>Luxury Interiors. Crafted To Perfection.</h1>
+          <h1>Custom Interiors Built With Precision</h1>
           <p>
-            Cabinets • Ceilings • TV Units • Tiling • Finishing
+            Cabinets • Built-Ins • Wardrobes • TV Units
           </p>
 
           <div className="hero-buttons">
@@ -46,32 +46,32 @@ export default function Home() {
 
           <div className="card">
             <h3>Kitchen Cabinets</h3>
-            <p>Modern, clean and custom-built kitchens.</p>
+            <p>Modern custom-built kitchen units.</p>
+          </div>
+
+          <div className="card">
+            <h3>Built-In Cupboards</h3>
+            <p>Durable and stylish built-ins for any space.</p>
           </div>
 
           <div className="card">
             <h3>Wardrobes</h3>
-            <p>Stylish fitted wardrobes for every home.</p>
+            <p>Fitted wardrobes designed for your lifestyle.</p>
           </div>
 
           <div className="card">
             <h3>TV Units</h3>
-            <p>Luxury TV walls with slatted wood panels.</p>
+            <p>Modern TV stands and wall panel designs.</p>
           </div>
 
           <div className="card">
-            <h3>Ceilings</h3>
-            <p>Bulkheads, LED lighting & modern finishes.</p>
+            <h3>Custom Woodwork</h3>
+            <p>Unique designs crafted to your vision.</p>
           </div>
 
           <div className="card">
-            <h3>Tiling</h3>
-            <p>Precision floor & wall tiling.</p>
-          </div>
-
-          <div className="card">
-            <h3>Finishing</h3>
-            <p>Final touches that elevate your space.</p>
+            <h3>Interior Finishing</h3>
+            <p>Clean finishing touches that elevate your space.</p>
           </div>
 
         </div>
@@ -88,7 +88,7 @@ export default function Home() {
           </div>
 
           <div className="project">
-            <div className="project-overlay">Luxury Bedroom</div>
+            <div className="project-overlay">Luxury Wardrobe</div>
           </div>
 
           <div className="project">
@@ -96,7 +96,7 @@ export default function Home() {
           </div>
 
           <div className="project">
-            <div className="project-overlay">Ceiling Design</div>
+            <div className="project-overlay">Built-In Cupboard</div>
           </div>
 
         </div>
@@ -131,4 +131,4 @@ export default function Home() {
 
     </main>
   );
-}
+        }
