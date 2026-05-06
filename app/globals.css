@@ -110,20 +110,15 @@ nav a {
 }
 
 /* PROJECTS */
+
 .project {
   height: 250px;
-  background: #222;
   position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
 }
-
-.project-overlay {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 20px;
-  background: linear-gradient(transparent, black);
-}
-
 /* CONTACT */
 .form {
   max-width: 500px;
