@@ -6,7 +6,9 @@ export default function Home() {
 
       {/* NAVBAR */}
       <header className="header">
-        <div className="logo">Jacob's Craft Interiors</div>
+        <div className="logo">
+  <img src="/logo.svg" alt="Jacob's Craft Interiors Logo" />
+</div>
         <nav>
           <a href="#home">Home</a>
           <a href="#services">Services</a>
